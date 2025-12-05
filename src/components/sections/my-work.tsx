@@ -1,25 +1,31 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Bike, Car, Dumbbell, Globe, HeartHandshake, Home, ShieldCheck, Ship, UserCheck, Users } from 'lucide-react';
 import Link from 'next/link';
+import { FireInsuranceIcon } from '../icons/fire-insurance';
+import { FamilyHealthInsuranceIcon } from '../icons/family-health-insurance';
+import { CriticalIllnessInsuranceIcon } from '../icons/critical-illness-insurance';
+import { TermInsuranceIcon } from '../icons/term-insurance-icon';
+import { TopUpHealthInsuranceIcon } from '../icons/top-up-health-insurance';
+import { HealthInsuranceIcon } from '../icons/health-insurance-icon';
+import { PersonalAccidentInsuranceIcon } from '../icons/personal-accident-insurance';
 
 const products = [
-  { id: 'car-insurance', title: 'Car Insurance' },
-  { id: 'bike-insurance', title: 'Bike Insurance' },
-  { id: 'health-insurance', title: 'Health Insurance' },
-  { id: 'life-insurance', title: 'Life Insurance' },
-  { id: 'travel-insurance', title: 'Travel Insurance' },
-  { id: 'marine-insurance', title: 'Marine Insurance' },
-  { id: 'home-insurance', title: 'Home Insurance' },
-  { id: 'term-life-insurance', title: 'Term Life Insurance' },
-  { id: 'group-health-insurance', title: 'Employee Group Health Insurance' },
-  { id: 'personal-accident-insurance', title: 'Personal Accident Insurance' },
-  { id: 'fire-insurance', title: 'Fire Insurance' },
-  { id: 'family-health-insurance', title: 'Family Health Insurance' },
-  { id: 'critical-illness-insurance', title: 'Critical Illness Insurance' },
-  { id: 'top-up-health-insurance', title: 'Top-Up Health Insurance' },
-  { id: 'cyber-insurance', title: 'Cyber Insurance' },
+  { id: 'car-insurance', title: 'Car Insurance', icon: Car },
+  { id: 'bike-insurance', title: 'Bike Insurance', icon: Bike },
+  { id: 'health-insurance', title: 'Health Insurance', icon: HealthInsuranceIcon },
+  { id: 'life-insurance', title: 'Life Insurance', icon: HeartHandshake },
+  { id: 'travel-insurance', title: 'Travel Insurance', icon: Globe },
+  { id: 'marine-insurance', title: 'Marine Insurance', icon: Ship },
+  { id: 'home-insurance', title: 'Home Insurance', icon: Home },
+  { id: 'term-life-insurance', title: 'Term Life Insurance', icon: TermInsuranceIcon },
+  { id: 'group-health-insurance', title: 'Employee Group Health Insurance', icon: Users },
+  { id: 'personal-accident-insurance', title: 'Personal Accident Insurance', icon: PersonalAccidentInsuranceIcon },
+  { id: 'fire-insurance', title: 'Fire Insurance', icon: FireInsuranceIcon },
+  { id: 'family-health-insurance', title: 'Family Health Insurance', icon: FamilyHealthInsuranceIcon },
+  { id: 'critical-illness-insurance', title: 'Critical Illness Insurance', icon: CriticalIllnessInsuranceIcon },
+  { id: 'top-up-health-insurance', title: 'Top-Up Health Insurance', icon: TopUpHealthInsuranceIcon },
+  { id: 'cyber-insurance', title: 'Cyber Insurance', icon: ShieldCheck },
 ];
 
 export default function Products() {
@@ -34,8 +40,11 @@ export default function Products() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-6">
           {products.map((product) => (
-            <Card key={product.id} className="text-center p-4 flex flex-col items-center justify-center transition-transform duration-300 hover:scale-105 hover:shadow-xl">
-              <CardTitle className="text-base font-medium">{product.title}</CardTitle>
+            <Card key={product.id} className="text-center p-4 flex flex-col items-center justify-start transition-transform duration-300 hover:scale-105 hover:shadow-xl">
+              <div className="bg-primary/10 p-3 rounded-full mb-4">
+                  <product.icon className="w-8 h-8 text-primary" />
+              </div>
+              <CardTitle className="text-base font-medium h-12 flex items-center">{product.title}</CardTitle>
             </Card>
           ))}
         </div>
