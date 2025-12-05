@@ -3,8 +3,10 @@ import Footer from '@/components/layout/footer';
 import Hero from '@/components/sections/hero';
 import MyWork from '@/components/sections/my-work';
 import MySkills from '@/components/sections/my-skills';
-import AboutMe from '@/components/sections/about-me';
+import Testimonials from '@/components/sections/testimonials';
 import Contact from '@/components/sections/contact';
+import Partners from '@/components/sections/partners';
+import CtaSection from '@/components/sections/cta-section';
 
 export default function Home() {
   return (
@@ -14,7 +16,9 @@ export default function Home() {
         <Hero />
         <MyWork />
         <MySkills />
-        <AboutMe />
+        <CtaSection />
+        <Partners />
+        <Testimonials />
         <Contact />
       </main>
       <Footer />

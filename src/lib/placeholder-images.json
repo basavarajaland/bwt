@@ -2,33 +2,57 @@
   "placeholderImages": [
     {
       "id": "hero-profile",
-      "description": "Profile picture for the hero section",
-      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY0OTM4Mjc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman smiling"
+      "description": "Indian family smiling while holding a cardboard house model",
+      "imageUrl": "https://images.unsplash.com/photo-1659352786973-82ae3af461a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmFtaWx5JTIwaW5zdXJhbmNlfGVufDB8fHx8MTc2NDk1Mjk5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "family insurance"
     },
     {
-      "id": "project-shopper",
-      "description": "Project image for Shopper UI/UX case study",
-      "imageUrl": "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzY0OTM1OTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mobile app"
+      "id": "testimonial-1",
+      "description": "Aditya Singh",
+      "imageUrl": "https://images.unsplash.com/photo-1583195763986-0231686dcd43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ4NTgzNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
     },
     {
-      "id": "project-foodies",
-      "description": "Project image for Foodies website design",
-      "imageUrl": "https://images.unsplash.com/photo-1647752598999-01e71bc9bdd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmb29kJTIwd2Vic2l0ZXxlbnwwfHx8fDE3NjQ5NTI1NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "food website"
+      "id": "testimonial-2",
+      "description": "Puranjay Choudhury",
+      "imageUrl": "https://images.unsplash.com/photo-1583195763986-0231686dcd43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ4NTgzNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
     },
     {
-      "id": "project-portfolio",
-      "description": "Project image for portfolio website redesign",
-      "imageUrl": "https://images.unsplash.com/photo-1743363014543-d61b298cd030?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkZXNpZ24lMjBwb3J0Zm9saW98ZW58MHx8fHwxNzY0OTEwMzU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "design portfolio"
+      "id": "testimonial-3",
+      "description": "Ziauddin Siddiqui",
+      "imageUrl": "https://images.unsplash.com/photo-1624395213043-fa2e123b2656?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ4NTgzNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
     },
     {
-      "id": "about-me",
-      "description": "Image for the about me section",
-      "imageUrl": "https://images.unsplash.com/photo-1702047129200-89734f555f38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHdvcmtpbmd8ZW58MHx8fHwxNzY0OTQyNjQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman working"
+      "id": "testimonial-4",
+      "description": "Arkaay Rane",
+      "imageUrl": "https://images.unsplash.com/photo-1594672830234-ba4cfe1202dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY0ODU4Mzc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "testimonial-5",
+      "description": "Thakur Anagha",
+      "imageUrl": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NDkwODIwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-6",
+      "description": "Vishakha Kale",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NDkwODIwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-7",
+      "description": "Prabodh Desai",
+      "imageUrl": "https://images.unsplash.com/photo-1624395213043-fa2e123b2656?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ4NTgzNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "testimonial-8",
+      "description": "Deepak Gupta",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjQ4NTgzNzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
     }
   ]
 }

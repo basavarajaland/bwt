@@ -2,15 +2,16 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { Menu, CodeXml } from "lucide-react";
+import { Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const navLinks = [
-  { name: "My Work", href: "#work" },
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
+  { name: "Home", href: "#home" },
+  { name: "Products", href: "#products" },
+  { name: "Why Us", href: "#why-us" },
+  { name: "Testimonials", href: "#testimonials" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -35,10 +36,10 @@ export default function Header() {
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="#home" className="flex items-center gap-2 text-2xl font-bold font-headline text-primary">
-          <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-primary-foreground">
+          <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center text-primary-foreground font-bold">
             B
           </div>
-          <span className="hidden sm:inline">BWT Creations</span>
+          <span className="hidden sm:inline">BTW IMF</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
