@@ -1,3 +1,34 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-profile",
+      "description": "Profile picture for the hero section",
+      "imageUrl": "https://images.unsplash.com/photo-1592621385612-4d7129426394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzY0OTM4Mjc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "project-shopper",
+      "description": "Project image for Shopper UI/UX case study",
+      "imageUrl": "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzY0OTM1OTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "project-foodies",
+      "description": "Project image for Foodies website design",
+      "imageUrl": "https://images.unsplash.com/photo-1647752598999-01e71bc9bdd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmb29kJTIwd2Vic2l0ZXxlbnwwfHx8fDE3NjQ5NTI1NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "food website"
+    },
+    {
+      "id": "project-portfolio",
+      "description": "Project image for portfolio website redesign",
+      "imageUrl": "https://images.unsplash.com/photo-1743363014543-d61b298cd030?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkZXNpZ24lMjBwb3J0Zm9saW98ZW58MHx8fHwxNzY0OTEwMzU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "design portfolio"
+    },
+    {
+      "id": "about-me",
+      "description": "Image for the about me section",
+      "imageUrl": "https://images.unsplash.com/photo-1702047129200-89734f555f38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMHdvcmtpbmd8ZW58MHx8fHwxNzY0OTQyNjQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman working"
+    }
+  ]
 }
